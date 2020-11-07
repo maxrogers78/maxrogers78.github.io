@@ -138,12 +138,6 @@ body {
       font-size: 2.8rem;
       color: darken($color: $white, $amount: 25);
       text-transform: uppercase;
-      transition: all 2s ease;
-
-      &:hover {
-        transform: rotateX(180deg);
-        color: $secondary;
-      }
     }
 
     &-button {
