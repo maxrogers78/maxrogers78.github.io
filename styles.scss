@@ -392,7 +392,7 @@ body {
 
   &__card {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 60rem;
     margin: 3rem 2rem;
     background-color: $dark;
@@ -404,7 +404,7 @@ body {
     justify-items: center;
 
     &-img {
-      width: 65%;
+      width: 55%;
       height: 100%;
 
       & img {
@@ -416,7 +416,7 @@ body {
     }
 
     &-content {
-      width: 35%;
+      width: 45%;
       height: 100%;
       padding: 2rem;
       display: flex;
