@@ -771,6 +771,27 @@ body {
   }
 }
 
+@media screen and (max-width: 580px) {
+  .skills {
+    &__card {
+      width: 300px !important;
+      height: 300px !important;
+
+      &-header {
+        font-size: 130px;
+
+        &--typescript {
+          width: 100px;
+        }
+      }
+
+      &-title {
+        font-size: 40px !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
   .navbar {
     &__list {
@@ -817,6 +838,16 @@ body {
       }
     }
   }
+
+  .projects {
+    &__content {
+      margin: 0;
+    }
+
+    &__card {
+      width: 90% !important;
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -842,7 +873,7 @@ body {
     }
 
     &__card {
-      min-width: 90% !important;
+      min-width: 95% !important;
       margin: 3rem 0 !important;
     }
   }
