@@ -168,10 +168,11 @@ body {
       margin-top: 2rem;
       font-size: 2.4rem;
       padding: 1rem;
-      color: $white;
+      color: $dark;
+      background-color: $primary;
       text-decoration: none;
       text-transform: uppercase;
-      border: 2px solid $white;
+      border: 3px solid $dark;
       transition: all 500ms ease;
       backface-visibility: hidden;
       -webkit-filter: blur(0);
