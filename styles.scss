@@ -739,11 +739,11 @@ body {
   .header {
     &__content {
       &-title {
-        font-size: 6.5rem;
+        font-size: 4.5rem;
       }
 
       &-subtitle {
-        font-size: 2.4rem !important;
+        font-size: 2.2rem !important;
       }
 
       &-button {
@@ -803,11 +803,11 @@ body {
   .header {
     &__content {
       &-title {
-        font-size: 5rem !important;
+        font-size: 4rem !important;
       }
 
       &-subtitle {
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
       }
 
       &-button {
@@ -855,15 +855,15 @@ body {
   .header {
     &__content {
       &-title {
-        font-size: 4rem !important;
+        font-size: 3rem !important;
       }
 
       &-subtitle {
-        font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
       }
 
       &-button {
-        font-size: 2rem !important;
+        font-size: 1.8rem !important;
       }
     }
   }
@@ -882,6 +882,22 @@ body {
   .contact {
     &__form {
       width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    &__content {
+      &-title {
+        font-size: 3.4rem !important;
+        text-align: center;
+      }
+
+      &-subtitle {
+        font-size: 1.6rem !important;
+        text-align: center;
+      }
     }
   }
 }
